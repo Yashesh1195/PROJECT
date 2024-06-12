@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="download (1).png">
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+
+    <center>
+        <table id="demo" cellspacing="3">
+            <tr>
+                <td colspan="4">
+                    <input type="text" id="display" readonly>
+                </td>
+            </tr>
+    
+            <tr>
+                <td>
+                    <input class="num" type="button" value="C" onclick="clearInterval()" style="padding: 4px; padding-left: 12px; padding-right: 12px;">
+                </td>
+                <td>
+                    <input class="num" type="button" value="D" onclick="del()" style="padding: 4px; padding-left: 12px; padding-right: 12px;"> 
+                </td>
+                <td>
+                    <input class="num" type="button" value="%" onclick="main('%')" style="padding: 4px; padding-left: 9px; padding-right: 9px;">
+                </td>
+                <td>
+                    <input class="num" type="button" value="/" onclick="main('/')" style="padding: 4px; padding-left: 22px; padding-right: 22px;">
+                </td>
+            </tr>
+    
+            <tr>
+                <td>
+                <input class="num" type="button" value="7" onclick="main('7')" style="padding: 4px; padding-left: 16px; padding-right: 16px;">
+                </td>
+                <td>
+                    <input class="num" type="button" value="8" onclick="main('8')" style="padding: 4px; padding-left: 16px; padding-right: 16px;">    
+                </td>
+                <td>
+                    <input class="num" type="button" value="9" onclick="main('9')" style="padding: 4px; padding-left: 16px; padding-right: 16px;">
+                </td>
+                <td>
+                    <input class="num" type="button" value="*" onclick="main('*')" style="padding: 4px; padding-left: 20px; padding-right: 20px;">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input class="num" type="button" value="4" onclick="main('4')" style="padding: 4px; padding-left: 16px; padding-right: 16px;">
+                </td>
+                <td>
+                    <input class="num" type="button" value="5" onclick="main('5')" style="padding: 4px; padding-left: 16px; padding-right: 16px;">    
+                </td>
+                <td>
+                    <input class="num" type="button" value="6" onclick="main('6')" style="padding: 4px; padding-left: 16px; padding-right: 16px;">
+                </td>
+                <td>
+                    <input class="num" type="button" value="-" onclick="main('-')" style="padding: 4px; padding-left: 22px; padding-right: 22px;">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input class="num" type="button" value="1" onclick="main('1')" style="padding: 4px; padding-left: 16px; padding-right: 16px;">
+                </td>
+                <td>
+                    <input class="num" type="button" value="2" onclick="main('2')" style="padding: 4px; padding-left: 16px; padding-right: 16px;">    
+                </td>
+                <td>
+                    <input class="num" type="button" value="3" onclick="main('3')" style="padding: 4px; padding-left: 16px; padding-right: 16px;">
+                </td>
+                <td>
+                    <input class="num" type="button" value="+" onclick="main('+')" style="padding: 4px; padding-left: 16px; padding-right: 16px;">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input class="num" type="button" value="0" onclick="main('0')" style="padding: 4px; padding-left: 16px; padding-right: 16px;">
+                </td>
+                <td>
+                    <input class="num" type="button" value="." onclick="main('.')" style="padding: 4px; padding-left: 22px; padding-right: 22px;">    
+                </td>
+                <td>
+                    <input class="num" type="button" value="+/-" onclick="add_inv('+/-')" style="padding: 4px;">
+                </td>
+                <td>
+                    <input class="num" type="button" value="=" onclick="calc('=')" style="padding: 4px; padding-left: 16px; padding-right: 16px;">
+                </td>
+            </tr>
+            
+            
+        </table>
+    </center>
+
+    <script src="index.js"></script>
+</body>
+</html>

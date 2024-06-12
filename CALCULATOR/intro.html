@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <!-- <center> -->
+        <div>
+            <div>
+                <input type="text" id="display" readonly>
+            </div>
+
+            <div>
+                <input type="button" value="C" onclick="clearInterval()">
+                <input type="button" value="D" onclick="del()">
+                <input type="button" value="%" onclick="main('%')">
+                <input type="button" value="/" onclick="main('/')">
+            </div>
+
+            <div>
+                <input type="button" value="7" onclick="main('7')">
+                <input type="button" value="8" onclick="main('8')">
+                <input type="button" value="9" onclick="main('9')">
+                <input type="button" value="*" onclick="main('*')">
+            </div>
+
+            <div>
+                <input type="button" value="4" onclick="main('4')">
+                <input type="button" value="5" onclick="main('5')">
+                <input type="button" value="6" onclick="main('6')">
+                <input type="button" value="-" onclick="main('-')">
+            </div>
+
+            <div>
+                <input type="button" value="1" onclick="main('1')">
+                <input type="button" value="2" onclick="main('2')">
+                <input type="button" value="3" onclick="main('3')">
+                <input type="button" value="+" onclick="main('+')">
+            </div>
+            
+            <div>
+                <input type="button" value="." onclick="main('.')">
+                <input type="button" value="0" onclick="main('0')">
+                <input type="button" value="=" onclick="calc('=')">
+            </div>
+            
+        </div>
+    <!-- </center> -->
+
+    <script>
+        function main(value){
+            document.getElementById("display").value += value;
+        }
+
+        function calc(value){
+            let a = document.getElementById("display").value;
+
+            let result;
+
+            try{
+                result = eval(a);
+            }
+
+            catch(error){
+                result = "error";
+            }
+
+            document.getElementById("display").value = result;
+        }
+
+        function clearInterval(){
+                document.getElementById("display").value = "";
+        }
+
+        function del(){
+            document.getElementById("display").value = display.value.toString().slice(0,-1);
+        }
+    </script>
+</body>
+</html>
