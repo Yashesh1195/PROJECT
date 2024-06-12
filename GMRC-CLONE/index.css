@@ -1,0 +1,858 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* INFORMATION */
+
+#info{
+    /* padding: 30px; */
+    height: 150px;
+    display: flex;
+
+/* LOGO */
+
+#logo{
+    width: 18%;
+    img{
+        margin: 9px;
+        margin-left: 160px;
+        height: 120px;
+        width: 95px;
+    }
+}
+
+/* GMRC INFO */
+
+#information{
+    width: 58%;
+    padding-top: 40px;
+
+    #GMRC1{
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    #GMRC2{
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #GMRC3{
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+/* FOLLOW BUTTONS(IMAGES) */
+
+#follow{
+    /* background-color: aqua; */
+    width: 24%;
+    display: flex;
+    margin-top: 43px;
+    /* img{
+        
+    } */
+    #follow1>img{
+        height: 60px;
+        width: 60px;
+    }
+    #follow2>img{
+        margin-top: 10px;
+        margin-left: -8px;
+        height: 40px;
+        width: 40px;
+    }
+    #follow3>img{
+        margin-top: 15px;
+        margin-left: 8px;
+        height: 30px;
+        width: 30px;
+    }
+    #follow4>img{
+        margin-top: 15px;
+        margin-left: 10px;
+        height: 30px;
+        width: 40px;
+    }
+    
+}
+#language{
+    height: 30px;
+    margin-top: 58px;
+    margin-left: -180px;
+    border: 1px solid grey;
+}
+}
+
+/* #NAVBAR HEADER */
+
+#navbar{
+    height: 50px;
+    background-color: orange;
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* #navbar>div{
+    } */
+    
+    #navbar>div{
+        width: 20%;
+    }
+    .nav{
+        padding-top: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .nav>a{
+        color: white;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+        text-align: justify;
+    }
+
+    .nav:hover{
+        background-color: grey;
+        font-weight: 200;
+        font-weight: bold;
+    }
+
+}
+
+/* FRONT IMAGE */
+
+#front_img>img{
+    margin-top: 10px;
+    height: auto;
+    width: 1519px;
+}
+
+/* IMP INFO */
+
+#imp_info{
+    display: flex;
+    height: 40px;
+    margin: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 1px solid orange;
+    box-shadow: 6px 6px 20px grey;
+    /* INFO1 */
+   
+    #info1{
+        width: 20%;
+        background-color: orange;
+        /* font-size: large; */
+        padding-top: 11px;
+        padding-left: 4px;
+    }
+
+    /* INFO2 */
+
+    #info2{
+        width: 80%;
+        padding-top: 7px;
+        padding-left: 4px;
+    }
+
+    #info2>p>marquee>a{
+        text-decoration: none;
+        color: blue;
+        /* font-size: large; */
+    }
+}
+
+/* WELCOME */
+
+#welcome{
+    margin: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    /* background-color: antiquewhite; */
+    height: fit-content;
+    font-family: Arial;
+
+    
+    #wel2>hr {
+        border: solid 2px orange;
+        margin-bottom: 10px;
+        width: 130px;
+        /* transform: rotate(0deg); */
+    }
+
+    #wel3{
+        margin-top: 30px;
+        padding: 30px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        height: fit-content;
+        width: 100%;
+        /* background-color: antiquewhite; */
+        border: 2px solid orange;
+        border-radius: 20px;
+        box-shadow: 8px 8px 30px grey;
+    }
+
+    #wel3>p{
+        letter-spacing: 0.5px;
+    }
+
+}
+
+/* PROJECTS */
+
+#projects{
+    /* margin: 30px; */
+    margin-left: 100px;
+    margin-right: 100px;
+    /* background-color: antiquewhite; */
+    height: fit-content;
+    font-family: Arial;
+    
+    #proj2>hr {
+        border: solid 2px orange;
+        margin-bottom: 10px;
+        width: 130px;
+        /* transform: rotate(0deg); */
+    }
+
+    #proj3{
+        margin-top: 30px;
+        padding: 30px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        height: fit-content;
+        width: 100%;
+        border: 2px solid orange;
+        border-radius: 20px;
+        box-shadow: 8px 8px 30px grey;
+    }
+
+    /* COUNTER START */
+
+    #proj3_counter{
+        
+        display: flex;
+    }
+
+    #proj3_counter>div{
+        height: inherit;
+        width: 20%;
+        margin-left: 30px;
+        margin-right: 30px;
+        padding: 10px;
+        /* background-color:    aquamarine; */
+        }
+        
+    #count1,#count2,#count3,#count4,#count5,#count6{
+        font-size: 1.4cm;
+        font-weight: normal;
+        padding-bottom: 15px;
+        padding-left: 25px;
+    }
+
+    #proj3_counter>div>p{
+        color: grey;
+    }
+   
+    /* COUNTER END */
+
+    
+
+    /* METRO LINE START */
+
+    #metro_line{
+        text-align: center;
+        margin: 50px;
+        font-weight: lighter;
+    }
+
+    /* METRO LINE END */
+
+    #proj3_details{
+        margin-left: 25px;
+        display: flex;
+        gap: 40px;
+    }
+
+    #pd31{
+        height: fit-content;
+        width: 50%;
+        text-align: center;
+        /* background-color: antiquewhite; */
+        
+        hr{
+            border: 1px solid black;
+            margin-bottom: 10px;
+            width: 95%;
+        }
+
+        img{
+            margin-top: 25px;
+            height: 250px;
+            width: 400px;
+            align-items: center;
+            transition: transform .3s;
+        }
+
+        #A_BAD:hover{
+            transform: scale(1.1);
+        }
+
+        #am{
+            margin-top: 10px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .info1>div>h1{
+            font-weight: normal;
+        }
+        .info1>div>hr{
+            border: 1px solid lightgrey;
+        }
+        .info1>button{
+            margin-left: -30px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 185px;
+            padding-right: 190px;
+            background-color: darkgrey;
+            border: 0;
+            
+        }
+        .info1>button>a{
+            text-decoration: none;
+            color: azure;
+            font-size: medium;
+            text-align: center;
+        }
+
+    }
+
+    #pd32{
+        height: fit-content;
+        width: 50%;
+        /* background-color: aqua; */
+        text-align: center;
+
+        hr{
+            border: 1px solid black;
+            margin-bottom: 10px;
+            width: 95%;
+        }
+
+        img{
+            margin-top: 25px;
+            height: 250px;
+            width: 400px;
+            align-items: center;
+            transition: transform .3s;
+
+        }
+    
+        #SURAT:hover{
+            transform: scale(1.1);
+        }
+
+        #sm{
+            margin-top: 10px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .info2>div>h1{
+            font-weight: normal;
+        }
+        .info2>div>hr{
+            border: 1px solid lightgrey;
+        }
+
+        .info2>button{
+            margin-left: -30px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 185px;
+            padding-right: 190px;
+            background-color: darkgrey;
+            border: 0;
+            font-size: medium;
+            text-align: center;
+        }
+
+        .info2>button>a{
+            text-decoration: none;
+            color: azure;
+            font-size: medium;
+            text-align: center;
+        }
+}
+}
+
+/* PASSENGER JOURNEY */
+
+#p_j{
+    margin: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    /* background-color: antiquewhite; */
+    height: fit-content;
+    font-family: Arial;
+
+    
+    #p_j2>hr {
+        border: solid 2px orange;
+        margin-bottom: 10px;
+        width: 130px;
+    }
+
+    #p_j3{
+        margin-top: 30px;
+        padding: 30px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        height: fit-content;
+        width: 100%;
+        /* background-color: antiquewhite; */
+        border: 2px solid orange;
+        border-radius: 20px;
+        box-shadow: 8px 8px 30px grey;
+    }
+
+    #p_j3>img{
+        height: 500px;
+        justify-content: center;
+    }
+
+}
+
+/* PROJECT STATUS */
+
+#p_s{
+    margin: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    /* background-color: antiquewhite; */
+    height: fit-content;
+    font-family: Arial;
+
+    
+    #p_s2>hr {
+        border: solid 2px orange;
+        margin-bottom: 10px;
+        width: 130px;
+    }
+
+    #p_s3{
+        margin-top: 30px;
+        padding: 30px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        height: fit-content;
+        width: 100%;
+        /* background-color: antiquewhite; */
+        border: 2px solid orange;
+        border-radius: 20px;
+        box-shadow: 8px 8px 30px grey;
+        display: flex;
+    }
+
+    #ps1{
+        width: 60%;
+    }
+
+    #ps1>img{
+        height: 370px;
+        width: 700px;
+    }
+
+    #ps2{
+        width: 40%;
+        height: inherit;
+    }
+
+    #ps2>video{
+        height: 370px;
+        width: 500px;
+        object-fit: cover;
+    }
+
+}
+
+/* IMAGE MAP */
+
+#img_map{
+    height: auto;
+    width: 1519px;
+}
+
+
+
+/********** Media Query **********/
+
+@media screen and (max-width: 768px)
+{
+    
+/* INFORMATION */
+
+#info{
+    height: 70px;
+    margin-bottom: 35px;
+/* LOGO */
+
+#logo{
+    /* width: 8%; */
+    img{
+        margin: 8px;
+        margin-left: 10px;
+        height: 90px;
+        width: 70px;
+    }
+}
+
+/* GMRC INFO */
+
+#information{
+    /* width: 58%; */
+    padding-top: 25px;
+    padding-left: 20px;
+
+
+    #GMRC1{
+        font-size: small;
+    }
+    #GMRC2{
+        display: none;
+    }
+    #GMRC3{
+        display: none;
+    }
+}
+
+/* FOLLOW BUTTONS(IMAGES) */
+
+ #follow{
+    display: none;
+}
+#language{
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 18px;
+}
+
+}
+
+/* #NAVBAR HEADER */
+
+#navbar{
+        height: 11vh;
+        padding: 2px;
+        background-color: orange;
+        /* display: none; */
+        gap: 7px;
+        flex-wrap: wrap;
+        /* background-image: url(https://www.flaticon.com/free-icons/three-lines); */
+
+        #navbar>div{
+            width: 10%;
+        }
+        .nav{
+            padding-top: 3px;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+        .nav:hover{
+            background-color: grey;
+            font-weight: bold;
+        }
+        .nav>a>span{
+            display: none;
+        }
+
+        .nav>div{
+            display: none;
+        }
+
+}
+
+/* FRONT IMAGE */
+
+#front_img>img{
+    height: 150px;
+    width: 100%;
+}
+
+/* IMP INFO */
+
+#imp_info{
+    height: 50px;
+    margin: 5px;
+
+    /* INFO1 */
+   
+    #info1{
+        width: 35%;
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+
+    /* INFO2 */
+
+    #info2{
+        width: 62%;
+        padding-top: 10px;
+    }
+}
+
+/* WELCOME */
+
+#welcome{
+    margin: 30px;
+
+    #wel3{
+        margin-top: 30px;
+        padding: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #wel3>p{
+        letter-spacing: 0.4px;
+    }
+
+}
+
+/* PROJECTS */
+
+#projects{
+    margin: 30px;
+    margin-top: 40px;
+
+    #proj3{
+        margin-top: 30px;
+        padding: 50px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    /* COUNTER START */
+
+    #proj3_counter{
+        
+        display: block;
+    }
+        
+    #count1,#count2{
+        text-align: center;
+        margin-left: 9vw;
+    }
+    
+    #count3,#count4,#count5{
+        text-align: center;
+        margin-left: 6vw;
+    }
+
+    #count6{
+        text-align: center;
+        margin-left: 2vw;
+    }
+
+    #proj3_counter>div>p{
+        margin: 0;
+        padding-left: 50px;
+        align-items: center;
+    }
+   
+    /* COUNTER END */
+
+    
+
+    /* METRO LINE START */
+
+    #metro_line{
+        /* text-align: justify; */
+        margin-top: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    /* METRO LINE END */
+
+    #proj3_details{
+        margin-left: -20px;
+        display: block;
+    }
+
+    #pd31{
+        height: fit-content;
+        width: 290px;
+        text-align: center;
+        margin-left: -2vw;
+        
+        hr{
+            border: 1px solid black;
+            margin-bottom: 10px;
+            width: 99%;
+        }
+
+        img{
+            margin-top: 25px;
+            height: 180px;
+            width: 280px;
+            align-items: center;
+            transition: none;
+        }
+
+        #A_BAD:hover{
+            transform: none;
+        }
+
+        #am{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .info1>div>h1{
+            font-size: x-large;
+            font-weight: normal;
+        }
+        .info1>div>hr{
+            border: 1px solid lightgrey;
+            width: 288px;
+        }
+
+        .info1>button{
+            margin-left: 1px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-left: 100px;
+            padding-right: 100px;
+            margin-bottom: 20px;
+        }
+
+    }
+
+    
+
+    #pd32{
+        height: fit-content;
+        width: 290px;
+        text-align: center;
+        margin-left: -2vw;
+        
+        hr{
+            border: 1px solid black;
+            margin-bottom: 10px;
+            width: 99%;
+        }
+
+        img{
+            margin-top: 25px;
+            height: 180px;
+            width: 280px;
+            align-items: center;
+            transition: none;
+        }
+
+        #SURAT:hover{
+            transform: none;
+        }
+
+        #sm{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .info2>div>h1{
+            font-size: x-large;
+            font-weight: normal;
+        }
+        .info2>div>hr{
+            border: 1px solid lightgrey;
+            width: 288px;
+        }
+
+        .info2>button{
+            margin-left: 1px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-left: 100px;
+            padding-right: 100px;
+            margin-bottom: 20px;
+        }
+
+    }
+
+
+
+}
+
+/* PASSENGER JOURNEY */
+
+#p_j{
+    margin: 30px;
+
+    #p_j3{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #p_j3>img{
+        height: 190px;
+        width: 290px;
+        justify-content: center;
+    }
+
+}
+
+/* PROJECT STATUS */
+
+#p_s{
+    margin: 30px;
+
+    #p_s3{
+        margin-top: 30px;
+        padding: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: fit-content;
+        width: 100%;
+        /* background-color: antiquewhite; */
+        border: 2px solid orange;
+        border-radius: 20px;
+        box-shadow: 8px 8px 30px grey;
+        display: block;
+    }
+
+    #ps1{
+        
+        height: 170px;
+    }
+
+    #ps1>img{
+        height: 190px;
+        width: 291px;
+        margin-bottom: 40px;
+    }
+
+    #ps2{
+        padding-top: 40px;
+    }
+
+    #ps2>video{
+        height: 190px;
+        width: 291px;
+    }
+
+}
+
+/* IMAGE MAP */
+
+#img_map{
+    height: 30px;
+    width: 393px;
+}
+
+}
