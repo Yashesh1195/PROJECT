@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="logo.jpg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CASH CALCULATOR</title>
+    
+</head>
+<body>
+    <div id="cash_calc">
+
+            <!-- 500 NOTE -->
+            <div id="cash_500">
+                <div><img src="500.jpg" alt="" class="note"></div>
+                <div class="multi">*</div>
+                <div>
+                    <input type="text" class="demo" id="count1" oninput="main()">
+                </div>
+                <div class="equal">=</div>
+                <div>
+                    <input type="text" id="amount1" readonly>
+                </div>
+            </div>
+
+            <!-- 200 NOTE -->
+
+            <div id="cash_200">
+                <div><img src="200.jpg" alt="" class="note"></div>
+                <div class="multi">*</div>
+                <div>
+                    <input type="text" class="demo" id="count2" oninput="main()">
+                </div>
+                <div class="equal">=</div>
+                <div>
+                    <input type="text" id="amount2" readonly>
+                </div>
+            </div>
+
+            <!-- 100 NOTE -->
+
+            <div id="cash_100">
+                <div><img src="100.png" alt="" class="note"></div>
+                <div class="multi">*</div>
+                <div>
+                    <input type="text" class="demo" id="count3" oninput="main()">
+                </div>
+                <div class="equal">=</div>
+                <div>
+                    <input type="text" id="amount3" readonly>
+                </div>
+            </div>
+
+            <!-- 50 NOTE -->
+
+            <div id="cash_50">
+                <div><img src="50.jpg" alt="" class="note"></div>
+                <div class="multi">*</div>
+                <div>
+                    <input type="text" class="demo" id="count4" oninput="main()">
+                </div>
+                <div class="equal">=</div>
+                <div>
+                    <input type="text" id="amount4" readonly>
+                </div>
+            </div>
+
+            <!-- 20 NOTE -->
+
+            <div id="cash_20">
+                <div><img src="20.jpg" alt="" class="note"></div>
+                <div class="multi">*</div>
+                <div>
+                    <input type="text" class="demo" id="count5" oninput="main()">
+                </div>
+                <div class="equal">=</div>
+                <div>
+                    <input type="text" id="amount5" readonly>
+                </div>
+            </div>
+
+            <!-- 10 NOTE -->
+
+            <div id="cash_10">
+                <div><img src="10.jpg" alt="" class="note"></div>
+                <div class="multi">*</div>
+                <div>
+                    <input type="text" class="demo" id="count6" oninput="main()">
+                </div>
+                <div class="equal">=</div>
+                <div>
+                    <input type="text" id="amount6" readonly>
+                </div>
+            </div>
+
+            <!-- TOTAL -->
+
+           <div id="total">
+            <b>TOTAL:</b>
+                <div id="total_note">
+                    
+                </div>
+                <div id="total_amt">
+                   
+                </div>
+            </div>
+
+    </div>  
+
+    <script src="index.js"></script>
+
+</body>
+</html>
