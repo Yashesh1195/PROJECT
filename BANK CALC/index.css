@@ -1,0 +1,101 @@
+body {
+  background-color: burlywood;
+}
+
+#cash_calc {
+  margin: 20px;
+  margin-left: 420px;
+}
+
+.note {
+  height: 80px;
+  width: 180px;
+}
+
+.multi, .equal {
+  margin: 30px;
+}
+
+#cash_500 {
+  display: flex;
+  margin-bottom: 20px;
+}
+#cash_500 #count1, #cash_500 #amount1 {
+  border: 0;
+  margin-top: 20px;
+  height: 40px;
+  font-size: large;
+}
+
+#cash_200 {
+  display: flex;
+  margin-bottom: 20px;
+}
+#cash_200 #count2, #cash_200 #amount2 {
+  border: 0;
+  margin-top: 20px;
+  height: 40px;
+  font-size: large;
+}
+
+#cash_100 {
+  display: flex;
+  margin-bottom: 20px;
+}
+#cash_100 #count3, #cash_100 #amount3 {
+  border: 0;
+  margin-top: 20px;
+  height: 40px;
+  font-size: large;
+}
+
+#cash_50 {
+  display: flex;
+  margin-bottom: 20px;
+}
+#cash_50 #count4, #cash_50 #amount4 {
+  border: 0;
+  margin-top: 20px;
+  height: 40px;
+  font-size: large;
+}
+
+#cash_20 {
+  display: flex;
+  margin-bottom: 20px;
+}
+#cash_20 #count5, #cash_20 #amount5 {
+  border: 0;
+  margin-top: 20px;
+  height: 40px;
+  font-size: large;
+}
+
+#cash_10 {
+  display: flex;
+  margin-bottom: 20px;
+}
+#cash_10 #count6, #cash_10 #amount6 {
+  border: 0;
+  margin-top: 20px;
+  height: 40px;
+  font-size: large;
+}
+
+#total {
+  display: flex;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+#total #total_note {
+  margin-left: 125px;
+  height: 30px;
+  width: 230px;
+  word-wrap: break-word;
+}
+#total #total_amt {
+  margin-left: 60px;
+  height: 30px;
+  width: 230px;
+  word-wrap: break-word;
+}/*# sourceMappingURL=index.css.map */
